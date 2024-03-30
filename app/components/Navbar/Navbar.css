@@ -1,0 +1,26 @@
+#nav-bar-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100svh;
+  background: var(--secondary-color);
+}
+
+#link-list {
+  position:fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 20rem;
+  text-decoration: none;
+  list-style: none;
+  text-align:center;
+  top:0;
+}
+
+/* #link-list > li{
+    text-decoration: none;
+  list-style: none;
+} */

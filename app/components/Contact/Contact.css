@@ -1,0 +1,30 @@
+#contact-form{
+    width: 60svw;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#contact-form > input,
+#contact-form > textarea{
+    margin-bottom:1rem;
+    padding:1rem;
+    background: white;
+    border:1px solid var(--secondary-accent-color);
+    border-radius: 10px;
+}
+
+#contact-form > label{
+    color: var(--secondary-color);
+}
+
+#contact-form > button{
+    position: relative;
+    align-self: center;
+    padding:.5rem;
+    background:var(--primary-accent);
+    border:none;
+    border-radius: 5px;
+    width:10rem;
+}

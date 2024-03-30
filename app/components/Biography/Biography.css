@@ -1,0 +1,38 @@
+#bio-container {
+  color: black;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+#bio-text-wrapper{
+    width:50%;
+}
+
+#bio-text {
+  font-size: 0.75rem;
+}
+
+#image-wrapper{
+    width:50%;
+}
+
+#about-me-image {
+  width: 100%;
+}
+
+#contact-button-wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+
+#contact-button {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+  background: var(--primary-accent);
+}

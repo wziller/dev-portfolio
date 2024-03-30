@@ -1,0 +1,41 @@
+#resume-wrapper{
+    width:80%;
+    height:50rem;
+    border:1px solid black;
+    border-radius:15px;
+    display:grid;
+    grid-template-columns: .4fr 1fr;
+}
+
+#resume-nav{
+    display: flex;
+    height:100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    border-right: 1px solid black;
+    padding:.5rem;
+}
+
+.resume-tab{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:10%;
+    width:100%;
+}
+
+.resume-tab-active{
+      display:flex;
+    justify-content: center;
+    align-items: center;
+    height:10%;
+    width:100%;
+    background: var(--secondary-color);
+    border-radius: 15px 0px 0px 15px;
+    color:white;
+}
+
+#resume-display{
+    height:100%;
+}
