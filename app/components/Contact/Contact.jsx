@@ -9,7 +9,7 @@ const Contact = () => {
     
   return (
     <section>
-      <h2>Contact Me</h2>
+      <h2 id="Contact">Contact Me</h2>
       <ContactForm />
     </section>
   );

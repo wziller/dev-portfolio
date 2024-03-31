@@ -37,7 +37,7 @@ const {active, setActive} = props
           }
           onClick={() => setActive("platforms")}
         >
-          <h3>Platforms and Tool</h3>
+          <h3>Platforms and Tools</h3>
         </div>
       </div>
     </div>

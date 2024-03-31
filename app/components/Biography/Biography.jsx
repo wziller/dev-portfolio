@@ -25,7 +25,7 @@ const Biography = () => {
             city, or building spacecraft in Kerbal Space Program.
           </p>
           <div id="contact-button-wrapper">
-            <button id="contact-button">Contact</button>
+            <a id="contact-button" href="#Contact">Contact</a>
           </div>
         </div>
       </div>

@@ -30,9 +30,10 @@
 }
 
 #contact-button {
-  padding: 0.5rem;
+  padding: 0.7rem;
   border-radius: 5px;
   border: none;
   box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
   background: var(--primary-accent);
+  color:white;
 }

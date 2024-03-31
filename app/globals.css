@@ -1,13 +1,19 @@
 :root {
   --max-width: 1100px;
   --border-radius: 12px;
-  
+
   /* Color Palette */
-  --primary-color: #FFF7FC;
-  --secondary-color: #8B93FF;
-  --secondary-accent-color: #5755FE;
-  --primary-accent: #FF71CD;
+  --primary-color: rgb(255, 245, 251);
+  --primary-color-rgb: 255, 245, 251;
+
+  --secondary-color: rgb(139, 147, 255);
+  --secondary-color-rgb: 139, 147, 255;
+
+  --secondary-accent-color: rgb(87, 85, 254);
+  --secondary-accent-color-rgb: 87, 85, 254;
   
+  --primary-accent: rgb(255, 113, 205);
+  --primary-accent-rgb: 255, 113, 205;
 }
 
 * {
@@ -24,7 +30,7 @@ body {
 
 body {
   color: rgb(var(--secondary-accent-color));
-  background: var(--primary-color)
+  background: var(--primary-color);
 }
 
 a {
@@ -37,13 +43,13 @@ section {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  color:var(--secondary-accent-color);
+  color: var(--secondary-accent-color);
   padding-block: 3rem;
-  background:var(--primary-color);
+  background: var(--primary-color);
 }
 
-.section-header{
-  color:var(--secondary-accent-color)
+.section-header {
+  color: var(--secondary-accent-color);
 }
 
 h1 {
@@ -63,7 +69,7 @@ h2 {
 
 #body-content-wrapper {
   display: grid;
-  min-height:100vh;
-  background: #8B93FF;
+  min-height: 100vh;
+  background: #8b93ff;
   grid-template-columns: 10rem 1fr;
 }

@@ -1,41 +1,66 @@
-#resume-wrapper{
-    width:80%;
-    height:50rem;
-    border:1px solid black;
-    border-radius:15px;
-    display:grid;
-    grid-template-columns: .4fr 1fr;
+#resume-wrapper {
+  width: 80%;
+  height: 50rem;
+  border: 1px solid black;
+  border-radius: 15px;
+  display: grid;
+  grid-template-columns: 0.4fr 1fr;
+  overflow: hidden;
 }
 
-#resume-nav{
-    display: flex;
-    height:100%;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    border-right: 1px solid black;
-    padding:.5rem;
+#resume-nav {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-evenly;
+  background: var(--secondary-color);
+  padding: 0.5rem 0 0.5rem 0.5rem;
 }
 
-.resume-tab{
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    height:10%;
-    width:100%;
+.resume-tab {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  color: white;
 }
 
-.resume-tab-active{
-      display:flex;
-    justify-content: center;
-    align-items: center;
-    height:10%;
-    width:100%;
-    background: var(--secondary-color);
-    border-radius: 15px 0px 0px 15px;
-    color:white;
+.resume-tab-active {
+  display: flex;
+  position: relative;
+  border: 0px;
+  justify-content: center;
+  align-items: center;
+  height: 10%;
+  width: 100%;
+  background: var(--primary-color);
+  border-radius: 100vw 0px 0px 100vw;
+  color: black;
 }
 
-#resume-display{
-    height:100%;
+.resume-tab-active::before,
+.resume-tab-active::after {
+  --border-radius: 2rem;
+  content: "";
+  position: absolute;
+  width: var(--border-radius);
+  height: var(--border-radius);
+  right: 0;
+}
+.resume-tab-active::before {
+  top: calc(var(--border-radius) * -1);
+  box-shadow: 6px 6px 0 6px var(--primary-color);
+  border-radius: 0 0 100vw ;
+}
+
+.resume-tab-active::after {
+  bottom: calc(var(--border-radius) * -1);
+  box-shadow: 6px -6px 0px 6px var(--primary-color);
+  border-radius: 0 100vw 0 0 ;
+}
+
+#resume-display {
+  height: 100%;
 }
