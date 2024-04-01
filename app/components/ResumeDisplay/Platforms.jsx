@@ -4,7 +4,9 @@ import "./ResumeDisplay.css";
 const Platforms = () => {
   return (
     <div className="resume-display-window">
-      <p className="resume-display-header">Platforms & Tools</p>
+      <div className="display-window-header-wrapper">
+        <p className="resume-display-header">Platforms & Tools</p>
+      </div>
     </div>
   );
 };

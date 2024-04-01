@@ -3,7 +3,7 @@ import "./Biography.css";
 
 const Biography = () => {
   return (
-    <section id="biography">
+    <section id="Biography">
       <h2 className="section-header">About Me</h2>
       <div id="bio-container">
         <div id="image-wrapper">
@@ -25,7 +25,9 @@ const Biography = () => {
             city, or building spacecraft in Kerbal Space Program.
           </p>
           <div id="contact-button-wrapper">
-            <a id="contact-button" href="#Contact">Contact</a>
+            <a id="contact-button" href="#Contact">
+              Contact
+            </a>
           </div>
         </div>
       </div>

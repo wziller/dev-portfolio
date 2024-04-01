@@ -1,12 +1,14 @@
-import React from 'react'
-import "./ResumeDisplay.css"
+import React from "react";
+import "./ResumeDisplay.css";
 
 const Experience = () => {
   return (
     <div className="resume-display-window">
-      <p className="resume-display-header"> Technical Experience</p>
+      <div className="display-window-header-wrapper">
+        <p className="resume-display-header"> Technical Experience</p>
+      </div>
     </div>
   );
-}
+};
 
-export default Experience
+export default Experience;

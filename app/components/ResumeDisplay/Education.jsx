@@ -4,7 +4,9 @@ import "./ResumeDisplay.css";
 const Education = () => {
   return (
     <div className="resume-display-window">
-      <p className="display-window-header">Education</p>
+      <div className="display-window-header-wrapper">
+        <p className="display-window-header">Education</p>
+      </div>
     </div>
   );
 }

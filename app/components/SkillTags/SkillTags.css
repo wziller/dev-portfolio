@@ -1,0 +1,63 @@
+.tag {
+  height: fit-content;
+  width: fit-content;
+  font-size: 0.75rem;
+  margin: 0.25rem;
+  padding: 0.3rem;
+  border-radius: 100svw;
+}
+
+#react-tag {
+  color: black;
+  background: #61dbfb;
+}
+
+#docker-tag {
+  color: black;
+  background: #0db7ed;
+}
+
+#github-tag {
+  color: white;
+  background: black;
+}
+
+#graphql-tag {
+  color: white;
+  background: #e535ab;
+}
+
+#javascript-tag {
+  color: black;
+  background: #f0db4f;
+}
+
+#html5-tag {
+  color: white;
+  background: #e34c26;
+}
+
+#css3-tag {
+  color: white;
+  background: #264de4;
+}
+
+#jquery-tag {
+  color: white;
+  background: #0769ad;
+}
+
+#kibana-tag {
+  color: black;
+  background: linear-gradient(to right, #d7689d , #f3d337, #a0c443, #66b5ae);;
+}
+
+#snowflake-tag {
+  color: black;
+  background: #abf0ff;;
+}
+
+#google-tag {
+  color: black;
+  background: linear-gradient(to right, #4285F4 , #34A853, #FBBC05, #EA4335);;
+}

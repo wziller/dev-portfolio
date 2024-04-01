@@ -7,7 +7,6 @@ import Platforms from "./Platforms";
 
 const ResumeDisplay = (activeState) => {
   let { active } = activeState;
-  console.log(activeState)
   let displayEl;
   switch (active) {
     case "work":
@@ -22,7 +21,7 @@ const ResumeDisplay = (activeState) => {
     case "platforms":
       displayEl = <Platforms />;
     default:
-      console.log(active);
+      console.log("Unknown El Recieved");
   }
 
   return( <div id="display-window-wrapper">{displayEl}</div>);

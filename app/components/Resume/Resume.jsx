@@ -10,7 +10,7 @@ const Resume = () => {
   const [active, setActive] = useState("work");
 
   return (
-    <section id="resume">
+    <section id="Resume">
       <h2 className="section-header">Resume</h2>
       <div id="resume-wrapper">
         <ResumeNav active={active} setActive={setActive} />
