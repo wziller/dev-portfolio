@@ -1,0 +1,34 @@
+#education-content-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#education-content-wrapper > ul > li {
+  width: 100%;
+  color: black;
+  text-align: left;
+  font-size: 0.75rem;
+  margin:.5rem;
+}
+
+.school-name {
+  width: 100%;
+  margin: 1rem;
+}
+
+.school-dates{
+  font-size: .85rem;
+  color:grey;
+  padding-block: .5rem;
+}
+
+.responsibilities-list {
+  width: 60%;
+}
+
+.education-linebreak {
+  margin-bottom: 1rem;
+}

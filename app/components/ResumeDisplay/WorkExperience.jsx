@@ -10,12 +10,18 @@ const WorkExperience = () => {
       </div>
       <div id="work-content-wrapper">
         <p className="company-name">Scene in SA Magazine - Publisher</p>
+        <p className="company-dates">
+          <i>February 2023-Present</i>
+        </p>
 
         <ul className="responsibilities-list">
           <hr className="work-linebreak"></hr>
           <li></li>
         </ul>
         <p className="company-name">Affirm - Developer Support Engineer</p>
+        <p className="company-dates">
+          <i>June 2022 - February 2023</i>
+        </p>
         <ul className="responsibilities-list">
           <hr className="work-linebreak"></hr>
           <li>
@@ -48,11 +54,13 @@ const WorkExperience = () => {
             "snowflake",
             "kibana",
             "jquery",
-            "google"
-
+            "google",
           ]}
         />
         <p className="company-name">Quesmed - Software Engineer </p>
+        <p className="company-dates">
+          <i>April 2022 - December 2022</i>
+        </p>
         <ul className="responsibilities-list">
           <hr className="work-linebreak"></hr>
           <li>
@@ -73,7 +81,9 @@ const WorkExperience = () => {
           ]}
         />
         <p className="company-name">Somerset High School - Master Teacher</p>
-
+        <p className="company-dates">
+          <i>June 2019 - June 2021</i>
+        </p>
         <ul className="responsibilities-list">
           <hr className="work-linebreak"></hr>
           <li>

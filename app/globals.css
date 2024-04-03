@@ -73,3 +73,14 @@ h2 {
   background: #8b93ff;
   grid-template-columns: 10rem 1fr;
 }
+
+@media (min-width:1024px){
+  #body-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  min-width: 100vw;
+  background: #8b93ff;
+  grid-template-columns: 10rem 1fr;
+}
+}

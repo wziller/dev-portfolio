@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./ResumeDisplay.css"
 import WorkExperience from "./WorkExperience";
 import Education from "./Education";
@@ -13,6 +13,7 @@ const ResumeDisplay = (activeState) => {
       displayEl = <WorkExperience />;
       break;
     case "education":
+      console.log("education")
       displayEl = <Education />;
       break;
     case "experience":
@@ -20,6 +21,7 @@ const ResumeDisplay = (activeState) => {
       break;
     case "platforms":
       displayEl = <Platforms />;
+      break;
     default:
       console.log("Unknown El Recieved");
   }

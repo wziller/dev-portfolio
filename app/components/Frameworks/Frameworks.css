@@ -1,18 +1,25 @@
 #Frameworks {
   width: 100%;
-  background:var(--primary-accent-color)
+  /* background:var(--primary-accent-color) */
+  background-image: url("https://wziller-portfolio.s3.us-east-2.amazonaws.com/AdobeStock_628033389_Video_HD_Preview.gif");
+  box-shadow: inset 0 0 0 2000px rgba(var(--secondary-color-rgb), 0.5);
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
-
+#Frameworks > h2{
+  color:white;
+}
 #icons-wrapper {
   width: 80%;
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  gap:1rem;
+  gap: 1rem;
 }
 
 .icon-block {
   width: fit-content;
-  background:var(--primary-color);
+  background: var(--primary-color);
   border: 0.1rem solid black;
   border-radius: 0.25rem;
   margin: 0.25rem;

@@ -16,6 +16,8 @@
   justify-content: space-evenly;
   background: var(--secondary-color);
   padding: 0.5rem 0 0.5rem 0.5rem;
+  font-size:1.5rem;
+  text-align: right;
 }
 
 .resume-tab {
@@ -38,6 +40,10 @@
   background: var(--primary-color);
   border-radius: 100vw 0px 0px 100vw;
   color: black;
+}
+
+.resume-tab, .resume-tab-active{
+  padding-right: 1.5rem;
 }
 
 .resume-tab-active::before,
