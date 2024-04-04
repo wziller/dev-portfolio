@@ -7,7 +7,7 @@ const ResumeNav = (props) => {
 const {active, setActive} = props
 
   return (
-    <div>
+    <div id="resume-nav-wrapper">
       <div id="resume-nav">
         <div
           className={active === "work" ? "resume-tab-active" : "resume-tab"}

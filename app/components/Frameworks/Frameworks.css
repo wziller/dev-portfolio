@@ -7,8 +7,8 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
-#Frameworks > h2{
-  color:white;
+#Frameworks > h2 {
+  color: white;
 }
 #icons-wrapper {
   width: 80%;
@@ -30,4 +30,28 @@
   width: 100%;
   aspect-ratio: 1;
   filter: brightness(0);
+}
+
+@media (max-width: 1024px) {
+  #icons-wrapper {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+  }
+
+  .icon-block {
+    width: fit-content;
+    background: var(--primary-color);
+    border: 0.1rem solid black;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+    padding: 0.5rem;
+    box-shadow: 0.25rem 0.25rem 0.25rem rgba(0, 0, 0, 0.5);
+  }
+  .icon-image {
+    width: 100%;
+    aspect-ratio: 1;
+    filter: brightness(0);
+  }
 }

@@ -12,7 +12,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={bitter.className}>{children}</body>
+      <body className={bitter.className}>
+        {children}
+      </body>
     </html>
   );
 }
