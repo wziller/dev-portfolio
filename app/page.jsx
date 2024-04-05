@@ -5,7 +5,6 @@ import Biography from "./components/Biography/Biography";
 import Footer from "./components/Footer/Footer";
 import styles from "./page.module.css";
 import dynamic from "next/dynamic";
-import SiteHeader from "./components/SiteHeader/SiteHero";
 
 import "./globals.css"
 const ContactPage = dynamic(() => import("../app/components/Contact/Contact"), {
@@ -23,7 +22,6 @@ export default function Home() {
           <Navbar />
         </div>
         <div id="content-wrapper">
-          <SiteHeader />
           <Biography />
           <Frameworks />
           <Projects />

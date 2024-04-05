@@ -15,7 +15,7 @@
   align-items: flex-end;
   justify-content: space-evenly;
   background: var(--secondary-color);
-  padding: 0.5rem 0.5rem 0 0.5rem;
+  padding: 0.5rem 0 0.5rem  0.5rem;
   font-size:1.5rem;
   text-align: right;
 }
@@ -35,7 +35,7 @@
   border: 0px;
   justify-content: center;
   align-items: center;
-  height: 10%;
+  height: 5%;
   width: 100%;
   background: var(--primary-color);
   border-radius: 100vw 0px 0px 100vw;
@@ -43,7 +43,7 @@
 }
 
 .resume-tab, .resume-tab-active{
-  padding-top: 1.5rem;
+  padding-right: 2rem;
 }
 
 .resume-tab-active::before,

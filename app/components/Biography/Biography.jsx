@@ -4,7 +4,7 @@ import "./Biography.css";
 const Biography = () => {
   return (
     <section id="Biography">
-      <h2 className="section-header">About Me</h2>
+      {/* <h2 className="section-header">About Me</h2> */}
       <div id="bio-container">
         <div id="image-wrapper">
           <img
@@ -13,6 +13,11 @@ const Biography = () => {
           />
         </div>
         <div id="bio-text-wrapper">
+          <div id="hero-wrapper">
+            <h1 className="hero-text">
+              &lt; William Ziller - Software Developer/ &gt;
+            </h1>
+          </div>
           <p id="bio-text">
             Back in 2021, I decided to leave my 10 year career in education and
             try my hand at coding. After a year in coding Bootcamp at App
