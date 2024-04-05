@@ -1,12 +1,11 @@
-'use client'
+"use client";
 
 import React from "react";
 import "./Projects.css";
 
 const ProjectCard = (project) => {
-  console.log(project);
   const { name, description, link, year, image } = project.project;
-  console.log(name);
+
   return (
     <div className="project-card-wrapper">
       <a

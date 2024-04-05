@@ -95,8 +95,9 @@
   align-items: flex-end;
   justify-content: space-evenly;
   background: var(--secondary-color);
-  padding: none;
-  font-size: 5vw;
+  padding:0;
+  padding-top:1rem;
+  font-size: 2vw;
   text-align: center;
 }
 
@@ -123,8 +124,8 @@
 }
 
 .resume-tab, .resume-tab-active{
-  padding-bottom: .2rem;
   padding-top: 0;
+  padding-right: 0;
 }
 
 .resume-tab-active::after,
