@@ -16,8 +16,34 @@ const WorkExperience = () => {
 
         <ul className="responsibilities-list">
           <hr className="work-linebreak"></hr>
-          <li></li>
+          <li>
+            Migrated exisiting business operation to SaaS and cloud platforms.
+          </li>
+          <li>Transitioned company to a "remote-first" workplace.</li>
+
+          <li>
+            Implemented processes and workflows to modernize a 25-year old
+            business.
+          </li>
+          <li>Hired several new employees and contractors.</li>
+          <li>
+            Expanded brand visibility to wider and diverse audience to increase
+            sales revenue.
+          </li>
+          <li>
+            Established new partnerships with local businesses, while
+            renegotiating existing ones to reduce operating expenses.
+          </li>
         </ul>
+        <SkillTags
+          skills={[
+            "javascript",
+            "html5",
+            "css3",
+            "jquery",
+            "google",
+          ]}
+        />
         <p className="company-name">Affirm - Developer Support Engineer</p>
         <p className="company-dates">
           <i>June 2022 - February 2023</i>

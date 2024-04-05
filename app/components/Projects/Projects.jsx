@@ -16,7 +16,7 @@ const Projects = () => {
     {
       name: "Texas Bar Scrape",
       year: "2023",
-      description: "",
+      description: "An internal tool developed for Scene in SA Magazine that scrapes the Texas Bar ebsite and returns the data for individual lawyers. ",
       image:
         "https://wziller-portfolio.s3.us-east-2.amazonaws.com/Screenshot+2024-04-05+at+4.20.59+PM.png",
       link: "",
@@ -24,7 +24,7 @@ const Projects = () => {
     {
       name: "Chelsea's Cookies",
       year: "2021",
-      description: "",
+      description: "A Full Stack company retail website project where users can place orders, leave reviews, and view products and information.",
       image:
         "https://wziller-portfolio.s3.us-east-2.amazonaws.com/Screenshot+2024-04-05+at+4.17.22+PM.png",
       link: "https://chelseas-cookies.herokuapp.com/",
@@ -32,7 +32,7 @@ const Projects = () => {
     {
       name: "Quarrel",
       year: "2021",
-      description: "",
+      description: "Quarrel is a social media website for democratizing debate.",
       image:
         "https://wziller-portfolio.s3.us-east-2.amazonaws.com/Screenshot+2024-04-05+at+4.14.44+PM.png",
       link: "https://quarrel-wziller.herokuapp.com/",

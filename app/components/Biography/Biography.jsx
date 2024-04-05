@@ -1,9 +1,10 @@
 import React from "react";
 import "./Biography.css";
-
+import { Bitter } from "next/font/google";
+const bitter = Bitter({ subsets: ["latin"] });
 const Biography = () => {
   return (
-    <section id="Biography">
+    <section className={bitter.className} id="Biography">
       {/* <h2 className="section-header">About Me</h2> */}
       <div id="bio-container">
         <div id="image-wrapper">
