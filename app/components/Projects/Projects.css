@@ -40,21 +40,28 @@
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
-  cursor:pointer;
-}
-
-.project-image-wrapper::hover {
-  
+  cursor: pointer;
 }
 
 .project-image-wrapper > img {
   width: 100%;
   height: auto;
-  overflow:hidden;
-  
+  overflow: hidden;
 }
 
 .project-description-wrapper {
   padding-inline: 1rem;
   padding-bottom: 1rem;
+}
+
+@media (max-width: 1024px) {
+  #project-cards-wrapper {
+    max-width: 80%;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: fit-content;
+  }
 }
