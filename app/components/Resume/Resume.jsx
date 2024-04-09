@@ -7,7 +7,7 @@ import { useState } from "react";
 import ResumeDisplay from "../ResumeDisplay/ResumeDisplay";
 
 const Resume = () => {
-  const [active, setActive] = useState("education");
+  const [active, setActive] = useState("work");
 
   return (
     <section id="Resume">

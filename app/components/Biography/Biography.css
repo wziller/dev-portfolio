@@ -99,6 +99,7 @@
 @media (max-width: 1024px) {
   #bio-container {
     color: black;
+    height: fit-content;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -110,23 +111,26 @@
   }
   #hero-wrapper {
     width: 100%;
-    height: 6rem;
+    height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
     margin-top: 0;
+    margin-bottom: 2rem;
     background: rgba(var(--primary-color-rgb), 1);
   }
   #hero-text-wrapper {
     display: flex;
     width: fit-content;
+    height: fit-content;
   }
 
   .hero-text {
     text-align: center;
     color: transparent;
-    font-size: 1.9rem;
+    font-size: 6svw;
+    font-weight: 800;
     background: linear-gradient(
       to right,
       black,
@@ -150,7 +154,7 @@
 
   #bio-text {
     font-size: 1rem;
-    line-height: 1.25rem;
+    line-height: 1.6rem;
   }
   #image-wrapper {
     width: 85%;
