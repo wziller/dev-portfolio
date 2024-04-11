@@ -25,19 +25,19 @@ const {active, setActive} = props
         </div>
         <div
           className={
-            active === "experience" ? "resume-tab-active" : "resume-tab"
+            active === "download" ? "resume-tab-active" : "resume-tab"
           }
-          onClick={() => setActive("experience")}
+          onClick={() => setActive("download")}
         >
-          <h3>Technical Experience</h3>
+          <h3>Download</h3>
         </div>
         <div
           className={
-            active === "platforms" ? "resume-tab-active" : "resume-tab"
+            active === "references" ? "resume-tab-active" : "resume-tab"
           }
           onClick={() => setActive("platforms")}
         >
-          <h3>Platforms and Tools</h3>
+          <h3>References</h3>
         </div>
       </div>
     </div>

@@ -1,14 +1,14 @@
 import React from "react";
 import "./ResumeDisplay.css";
 
-const Platforms = () => {
+const References = () => {
   return (
     <div className="resume-display-window">
       <div className="display-window-header-wrapper">
-        <p className="resume-display-header">Platforms & Tools</p>
+        <p className="resume-display-header">References</p>
       </div>
     </div>
   );
 };
 
-export default Platforms;
+export default References;

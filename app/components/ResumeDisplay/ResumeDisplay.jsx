@@ -2,8 +2,8 @@ import React, { useEffect } from "react";
 import "./ResumeDisplay.css"
 import WorkExperience from "./WorkExperience";
 import Education from "./Education";
-import Experience from "./Experience";
 import Platforms from "./Platforms";
+import Download from "./Download";
 
 const ResumeDisplay = (activeState) => {
   let { active } = activeState;
@@ -16,8 +16,8 @@ const ResumeDisplay = (activeState) => {
       console.log("education")
       displayEl = <Education />;
       break;
-    case "experience":
-      displayEl = <Experience />;
+    case "download":
+      displayEl = <Download />;
       break;
     case "platforms":
       displayEl = <Platforms />;
