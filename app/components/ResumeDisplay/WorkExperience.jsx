@@ -17,7 +17,7 @@ const WorkExperience = () => {
         <ul className="responsibilities-list">
           <hr className="work-linebreak"></hr>
           <li>
-            Migrated exisiting business operation to SaaS and cloud platforms.
+            Migrated existing business operations to SaaS and cloud platforms.
           </li>
           <li>Transitioned company to a "remote-first" workplace.</li>
 
@@ -25,7 +25,7 @@ const WorkExperience = () => {
             Implemented processes and workflows to modernize a 25-year old
             business.
           </li>
-          <li>Hired several new employees and contractors.</li>
+          <li>Hired, trained, and managed several new employees and contractors.</li>
           <li>
             Expanded brand visibility to wider and diverse audience to increase
             sales revenue.
