@@ -85,7 +85,7 @@ const WorkExperience = () => {
         />
         <p className="company-name">Quesmed - Software Engineer </p>
         <p className="company-dates">
-          <i>April 2022 - December 2022</i>
+          <i>April 2022 - June 2022</i>
         </p>
         <ul className="responsibilities-list">
           <hr className="work-linebreak"></hr>
