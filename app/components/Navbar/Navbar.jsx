@@ -20,6 +20,17 @@ const Navbar = () => {
         <li>
           <a href="#Contact">Contact</a>
         </li>
+        <li>
+          <div id="social-links-wrapper">
+            <a href="https://github.com/wziller">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" />
+            </a>
+
+            <a href="https://www.linkedin.com/in/william-ziller/">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-plain.svg" />
+            </a>
+          </div>
+        </li>
       </ul>
     </div>
   );
