@@ -35,7 +35,7 @@ const {active, setActive} = props
           className={
             active === "references" ? "resume-tab-active" : "resume-tab"
           }
-          onClick={() => setActive("platforms")}
+          onClick={() => setActive("references")}
         >
           <h3>References</h3>
         </div>

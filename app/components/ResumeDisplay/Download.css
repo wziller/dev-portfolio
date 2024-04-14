@@ -1,0 +1,26 @@
+#download-content-wrapper {
+  width: 80%;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#download-invite-text {
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.5rem;
+  color: black;
+}
+
+#download-link {
+  margin: 2rem;
+  font-size: 1rem;
+  padding: 0.7rem;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 0.25rem 0.25rem 0.5rem rgba(0, 0, 0, 0.2);
+  background: var(--primary-accent);
+  color: white;
+}

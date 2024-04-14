@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import "./ResumeDisplay.css"
 import WorkExperience from "./WorkExperience";
 import Education from "./Education";
-import Platforms from "./Platforms";
+import References from "./References";
 import Download from "./Download";
 
 const ResumeDisplay = (activeState) => {
@@ -19,8 +19,8 @@ const ResumeDisplay = (activeState) => {
     case "download":
       displayEl = <Download />;
       break;
-    case "platforms":
-      displayEl = <Platforms />;
+    case "references":
+      displayEl = <References />;
       break;
     default:
       console.log("Unknown El Recieved");
