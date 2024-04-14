@@ -25,7 +25,9 @@ const WorkExperience = () => {
             Implemented processes and workflows to modernize a 25-year old
             business.
           </li>
-          <li>Hired, trained, and managed several new employees and contractors.</li>
+          <li>
+            Hired, trained, and managed several new employees and contractors.
+          </li>
           <li>
             Expanded brand visibility to wider and diverse audience to increase
             sales revenue.
@@ -36,13 +38,7 @@ const WorkExperience = () => {
           </li>
         </ul>
         <SkillTags
-          skills={[
-            "javascript",
-            "html5",
-            "css3",
-            "jquery",
-            "google",
-          ]}
+          skills={["javascript", "html5", "css3", "jquery", "google"]}
         />
         <p className="company-name">Affirm - Developer Support Engineer</p>
         <p className="company-dates">
