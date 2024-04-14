@@ -23,10 +23,10 @@ const Biography = () => {
             Back in 2021, I decided to leave my 10 year career in education and
             try my hand at coding. After a year in coding Bootcamp at App
             Academy, I accepted a position at the buy now pay later online
-            finanace company Affirm. Following the passing of my father, I took
+            finance company Affirm. Following the passing of my father, I took
             a break for a year to reinvigorate the family business he built,
             Scene in SA Magazine. I most enjoy creating elegant solutions
-            through software and contributing to . When I’m not at the computer,
+            through software and contributing to large-scale team-oriented projects. When I’m not at the computer,
             I’m usually rock climbing, reading, photographing events around our
             city, or building spacecraft in Kerbal Space Program.
           </p>
